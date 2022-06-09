@@ -17,11 +17,11 @@
     box-sizing: border-box;
 }
 .cx-title h2{
-font-size: 44px;
-font-weight: 400;
-color: white;
-
+    font-size: 44px;
+    font-weight: 400;
+    color: white;
 }
+
 .primeiro-prato{
 font-size: 26px;
 font-weight: 400;
@@ -38,16 +38,16 @@ margin: 15px 7px;
 .prato-principal{
     display: flex;
     box-sizing: border-box;
-overflow: hidden;
-
+    overflow-y: hidden;
+    overflow-x: scroll;
 }
 .prato{
-width: 172px;
-height: 216px;
-border-radius: 10px;
-background-color: white;
-margin: 10px 7px;
-padding: 7px 7px;
+    width: 172px;
+    height: 216px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px 7px;
+    padding: 7px 7px;
 
 }
 
@@ -81,11 +81,11 @@ padding: 7px 7px;
 }
 .refrigerante{
     width: 172px;
-height: 216px;
-border-radius: 10px;
-background-color: white;
-margin: 10px 7px;
-padding: 7px 7px;
+    height: 216px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px 7px;
+    padding: 7px 7px;
 }
 
 .refrigerante h4{
@@ -97,7 +97,8 @@ padding: 7px 7px;
 .bebidas{
     display: flex;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: scroll;
 }
 
 .por-fim-sua-sobremesa{
@@ -109,7 +110,8 @@ padding: 7px 7px;
 .sobremesas{
     display: flex;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: scroll;
 }
 
 .doces{
@@ -127,14 +129,16 @@ padding: 7px 7px;
     background-color: #ffffff;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .confirma-botao{
     width: 364px;
     height: 61px;
     background-color: #cbcbcb;
-    border-radius: 30%;
+    border-radius: 20px 20px 20px 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .confirma-botao p{
