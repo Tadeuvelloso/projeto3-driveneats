@@ -50,7 +50,8 @@ margin: 15px 7px;
     background-color: white;
     margin: 10px 7px;
     padding: 7px 7px;
-
+    position: relative;
+    
 }
 .selecionado{
     border: 6px solid green;
@@ -58,7 +59,20 @@ margin: 15px 7px;
 
 }
 
-.prato img{
+.ok {
+    width: 15px;
+    height: 15px;
+    position:absolute;
+    bottom: 10px;
+    right: 15px;
+    display: none;
+}
+
+.none{
+    display: initial;
+}
+
+.imgprato{
     width: 144px;
     height: 87px;
 }
@@ -120,6 +134,7 @@ margin: 15px 7px;
     overflow-y: hidden;
     overflow-x: scroll;
 }
+
 
 .doces{
     width: 172px;
