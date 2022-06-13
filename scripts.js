@@ -6,15 +6,7 @@ function selecionadorprato(element) {
    }
    element.classList.add("selecionado");
 }
-function ativariconeok(element) {
 
-   const ativaok = document.querySelector("prato .none");
-   if(ativaok !== null){
-      ativaok.classList.remove("none");
-   }
-   element.querySelector(".ok").classList.add("none");
-
-}
 function selecionadorbebida(element) {
     
    const bebidaselecionada = document.querySelector(".bebidas .selecionado");
