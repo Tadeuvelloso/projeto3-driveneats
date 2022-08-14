@@ -11,6 +11,21 @@
 </head>
 <body>
     <div class="all">
+        <div class="confirma escondido">
+            <div class="painel">
+                <h4>Confirme seu pedido</h4>
+                <p class="item1">1</p>
+                <p class="item2">2</p>
+                <p class="item3">3</p>
+                <p class="total">=</p>
+                <div class="enviar">
+                    <p>Tudo certo, pode pedir!</p>
+                </div>
+                <diva class="cancelar" onclick="cancelar()">
+                    <p>Cancelar</p>
+                </div>
+            </div>
+        </div>
         <header>
             <h1>DrivenEats</h1>
             <h6>Sua comida em 6 minutos</h6>
@@ -55,13 +70,13 @@
                     <img src="img/coquinha_gelada 2.png">
                     <p class="nome-item">coca-cola</p>
                     <p class="dados-item">Uma bebida gelada para refrescar.</p>
-                    <p class="valor-item">R$: <span class="valor">14.90</span></p>
+                    <p class="valor-item">R$: <span class="valor">11.90</span></p>
                 </div>
                 <div class="bebida" onclick="escolhaBebida(this)">
                     <img src="img/coquinha_gelada 2.png">
                     <p class="nome-item">coca-cola</p>
                     <p class="dados-item">Uma bebida gelada para refrescar.</p>
-                    <p class="valor-item">R$: <span class="valor">14.90</span></p>
+                    <p class="valor-item">R$: <span class="valor">17.90</span></p>
                 </div>
                 <div class="bebida" onclick="escolhaBebida(this)">
                     <img src="img/coquinha_gelada 2.png">
@@ -117,10 +132,11 @@
             </div>
         </main>
         <footer>
-            <button class="finalizar">Selecione os 3 itens
+            <button class="finalizar" onclick="confirmaPedido()">Selecione os 3 itens
                 para fechar o pedido</button>
         </footer>
     </div>
+    
     <script src="scripts.js"></script>
 </body>
 </html>
