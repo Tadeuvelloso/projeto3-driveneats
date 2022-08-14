@@ -5,9 +5,12 @@
 body { font-family: 'Righteous'}
 
 header {
-    width: 414px;
+    width: 100%;
     height: 92px;
-    
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
     background-color: #CF2B2B;
     box-sizing: border-box;
     padding: 15px;
@@ -31,6 +34,8 @@ main {
     width: 414px;
     background-color: #E5E5E5;
     overflow: scroll;
+    margin-top: 92px;
+    margin-bottom: 92px;
 
 }
 main > p {
@@ -89,7 +94,11 @@ main > p {
 }
 
 footer {
-    width: 414px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
     height: 92px;
     background-color: #ffffff;
     display: flex;
@@ -156,6 +165,30 @@ footer button:hover{
     text-align: start;
 }
 
+.mensagem{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.mensagem > div{
+    line-height: 20px;
+    margin-top: 10px;
+}
+.mensagem h4{
+    margin-bottom: 10px;
+}
+.mensagem{
+    line-height: 25px;
+}
+
+.mensagem :nth-child(6){
+    font-weight: 900;
+    margin-top: 10px;
+}
 .enviar {
     width: 333px;
     height: 52px;
@@ -166,6 +199,10 @@ footer button:hover{
     color: #50D074;
     background-color: #ffffff;
     font-weight: 700;
+}
+
+.enviar :hover{
+    cursor: pointer;
 }
 
 .cancelar{
