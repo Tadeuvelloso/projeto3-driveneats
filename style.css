@@ -174,7 +174,7 @@ footer button:hover{
     border-radius: 10px;
     background-color: #50D074;
     left: 19px;
-    top: calc(50% - 353px/2 - 0.5px);
+    top: calc(50% - 400px/2 - 0.5px);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
