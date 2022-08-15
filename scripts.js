@@ -14,10 +14,11 @@ function escolhaPrato (elemento) {
     const verde = document.querySelector('.pratos .selecionado');
     
     if (verde !== null){
-        verde.classList.remove('selecionado');
+        verde.classList.remove('selecionado');      
         cont --;
     }
     
+
     elemento.classList.add('selecionado');
     cont ++;
     

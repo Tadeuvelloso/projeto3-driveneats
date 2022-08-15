@@ -32,7 +32,7 @@ header > h6 {
 
 main {
     box-sizing: border-box;
-    height: 750px;
+    height: auto;
     width: 414px;
     background-color: #E5E5E5;
     overflow: scroll;
@@ -59,6 +59,8 @@ main > p {
       
 }
 
+
+
 .prato, .bebida , .doce{
     width: 172px;
     height: 216px;
@@ -72,7 +74,25 @@ main > p {
     align-items: flex-start;
     text-align: start;
     padding: 12px;
+    position: relative;
 }
+
+.prato > img, .bebida > img , .doce > img {
+    height: 87px;
+    width: 144px;
+    border-radius: 4px;
+}
+
+.icone{
+    height: 19px;
+    width: 19px;
+    color: #32B72F;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    opacity: 0;
+}
+
 
 .prato, .bebida , .doce :hover{
     cursor: pointer;
@@ -125,7 +145,11 @@ footer button:hover{
 
 .selecionado {
     border: 1px solid #32B72F;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+}
+
+.selecionado .icone{
+    opacity: 1;
 }
 
 .verdinho {
