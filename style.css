@@ -1,6 +1,6 @@
 .all {
     margin: 0px auto;
-    
+    height: auto;
 
 }
 
@@ -158,9 +158,9 @@ footer button:hover{
 
 .confirma{
     width: 100%;
-    height: 110%;
+    height: 200%;
     background-color: rgba(255, 255, 255, 0.75);
-    z-index: 5;
+    z-index: 10;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -168,7 +168,7 @@ footer button:hover{
     
 }
 .painel{
-    position: absolute;
+    position: fixed;
     height: 352px;
     width: 377px;
     border-radius: 10px;
